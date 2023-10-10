@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Esto ocultará la barra de desplazamiento */
+}
+
+#map {
+    z-index: 5;
+}
+
+#mars-texture {
+    width: 100vw; /* El 100% del ancho del viewport */
+    height: 100vh; /* El 100% de la altura del viewport */
+}
+
+#rover {
+    position: absolute;
+    width: 100px;
+    transition: all 500ms linear;
+}
+
+#control-panel {
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 0.8;
+    bottom: 10px;
+    left: calc(50% - 130px);
+}
+
+.audio {
+    display: none;
+}
+
+.rock {
+    position: absolute;
+    width: 100px;
+    margin-top: 22px;
+    z-index: 1;
+}
+
+#control-panel .btn-control {
+    width: 70px;
+    cursor: pointer;
+}

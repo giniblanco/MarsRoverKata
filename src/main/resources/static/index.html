@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <div id="control-panel">
+        <img onclick="clickBtnForward()" class="btn-control" src="images/forward.png" alt="forward">
+        <img onclick="clickBtnRotateRight()" class="btn-control" src="images/rotate-right.png" alt="right">
+        <img onclick="clickBtnBack()" class="btn-control" src="images/back.png" alt="back">
+        <img onclick="clickBtnRotateLeft()" class="btn-control" src="images/rotate-left.png" alt="left">
+    </div>
+    <div id="container">
+        <img id="rover" src="images/rover.png" alt="rover"/>
+        <div id="map">
+            <img id="mars-texture" src="images/mars-texture.jpg" alt="textura marte">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
